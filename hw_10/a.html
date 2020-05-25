@@ -1,0 +1,38 @@
+<html>
+
+   <head>
+      <title>HUFS IoT Edge</title>
+   </head>
+
+   <body>
+    <script src="a_iot.js"></script>
+      <center><h1>HUFS IoT Edge Server</h></center><br><br>
+         <center>
+            <table border="0" cellpadding="25%" width ="100%">
+
+               <tr>
+                  <td>
+                     <center>
+                     <h3 id="LASER_TITLE">Laser</h3><br><br>
+                     <img src="image/laser_off.png" name="Laser" id="myImage"><br><br>               
+
+                     <input type="button" value="ON" id="LASER_ON" onclick="LASERON();">
+                     <input type="button" value="OFF" id="LASER_OFF" onclick="LASEROFF();">
+                     </center>
+                  </td>
+
+                  <td>
+                     <center>
+                     <h3 id="ULTRASONIC_TITLE">Ultrasonic</h3><br><br>
+                     <img src="image/ultrasonic.png" name="ULTRASONIC" id="myImage2"><br><br>
+                     <input type="button" value="Undetected" id="ultrasonic_val" style="border:none";">
+                     </center>
+                  </td>
+               </tr>
+
+            </table>
+      </center>
+
+   </body>
+
+</html>
