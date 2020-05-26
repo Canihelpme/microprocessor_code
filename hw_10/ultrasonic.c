@@ -28,7 +28,7 @@ int main(void) {
         travel = micros() - start;
         dis = travel / 58;
 
-        printf("%d\n", dis);
+        printf("%d", dis);
         delay(100);
     }
     delay(500);

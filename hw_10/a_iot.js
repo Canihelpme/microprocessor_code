@@ -9,11 +9,11 @@ function XHR_read(data){
 
     xhr.open("GET","remoteC.php?" + data, false);
     xhr.send();
-return xhr.responseText;
+    return xhr.responseText;
 }
 
 function repeat(){
-LIGHT();
+ultraSonic();
 }
 setInterval(function(){repeat();},500);
 
